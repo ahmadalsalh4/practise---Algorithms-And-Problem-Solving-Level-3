@@ -1,6 +1,6 @@
 #include "mylab.h"
 
-void fun1()
+void Problem1()
 {
     int arr[3][3];
     MyFillArrayWithRandomMatrix(arr, 3, 3);
@@ -8,7 +8,7 @@ void fun1()
     MyPrintArrayLikeMatrix(arr, 3, 3);
 }
 
-void fun2()
+void Problem2()
 {
     int arr[3][3];
     MyFillArrayWithRandomMatrix(arr, 3, 3);
@@ -18,7 +18,7 @@ void fun2()
     MyPrintEechRowSum(arr, 3, 3);
 }
 
-void fun3()
+void Problem3()
 {
     int arr[3][3];
     MyFillArrayWithRandomMatrix(arr, 3, 3);
@@ -30,7 +30,7 @@ void fun3()
     MyPrintEechRowSumUsingSumArray(sumarr, 3);
 }
 
-void fun4()
+void Problem4()
 {
     int arr[3][3];
     MyFillArrayWithRandomMatrix(arr, 3, 3);
@@ -40,7 +40,7 @@ void fun4()
     MyPrintEechColmSum(arr, 3, 3);
 }
 
-void fun5()
+void Problem5()
 {
     int arr[3][3];
     MyFillArrayWithRandomMatrix(arr, 3, 3);
@@ -52,7 +52,7 @@ void fun5()
     MyPrintEechColmsSumUsingSumArray(sumarr, 3);
 }
 
-void fun6()
+void Problem6()
 {
     int arr[3][3];
     MyFillMatrixInOrder(arr, 3, 3);
@@ -60,7 +60,7 @@ void fun6()
     MyPrintArrayLikeMatrix(arr, 3, 3);
 }
 
-void fun7()
+void Problem7()
 {
     int arr[3][3];
     MyFillMatrixInOrder(arr, 3, 3);
@@ -73,7 +73,7 @@ void fun7()
     MyPrintArrayLikeMatrix(tarr, 3, 3);
 }
 
-void fun8()
+void Problem8()
 {
     int arr1[3][3], arr2[3][3];
     MyFillArrayWithRandomMatrix(arr1, 3, 3);
@@ -90,7 +90,7 @@ void fun8()
     MyPrintArrayLikeMatrix(marr, 3, 3);
 }
 
-void fun9()
+void Problem9()
 {
     int arr[3][3];
     MyFillArrayWithRandomMatrix(arr, 3, 3);
@@ -105,7 +105,7 @@ void fun9()
     MyPrintMiddlecolm(arr, 3, 3);
 }
 
-void fun10()
+void Problem10()
 {
     int arr[3][3];
     MyFillArrayWithRandomMatrix(arr, 3, 3);
@@ -116,7 +116,7 @@ void fun10()
     cout << "\nsum of matrix1 is: " << MySumOfMatrixElement(arr, 3, 3) << endl;
 }
 
-void fun11()
+void Problem11()
 {
     int matrix1[3][3];
     MyFillArrayWithRandomMatrix(matrix1, 3, 3);
@@ -134,7 +134,7 @@ void fun11()
         cout << "\nno, matrices are not equal\n";
 }
 
-void fun12()
+void Problem12()
 {
     int matrix1[3][3];
     MyFillArrayWithRandomMatrix(matrix1, 3, 3);
@@ -152,7 +152,7 @@ void fun12()
         cout << "\nno, matrices are not typical\n";
 }
 
-void fun13()
+void Problem13()
 {
     int matrix1[3][3];
     MyFillArrayWithRandomMatrix(matrix1, 3, 3);
@@ -165,7 +165,7 @@ void fun13()
         cout << "\nno, matrix is not identity\n";
 }
 
-void fun14()
+void Problem14()
 {
     int matrix1[3][3];
     MyFillArrayWithRandomMatrix(matrix1, 3, 3);
@@ -178,7 +178,7 @@ void fun14()
         cout << "\nno, matrix is not scaler\n";
 }
 
-void fun15()
+void Problem15()
 {
     int matrix1[3][3];
     MyFillArrayWithRandomMatrix(matrix1, 3, 3);
@@ -190,7 +190,7 @@ void fun15()
         << MyCountNumberInMatrix(matrix1, 3, 3, number) << endl;
 }
 
-void fun16()
+void Problem16()
 {
     int matrix1[3][3];
     //chance MyRandomNumber in MyFillArrayWithRandomMatrix to (0, 10);
@@ -204,7 +204,7 @@ void fun16()
         cout << "\nno, it is not sparse\n";
 }
 
-void fun17()
+void Problem17()
 {
     int matrix1[3][3];
     MyFillArrayWithRandomMatrix(matrix1, 3, 3);
@@ -219,7 +219,7 @@ void fun17()
         cout << "\nno, it is not there\n";
 }
 
-void fun18()
+void Problem18()
 {
     int matrix1[3][3];
     MyFillArrayWithRandomMatrix(matrix1, 3, 3);
@@ -246,7 +246,7 @@ void fun18()
     MyPrintArray(intersected_arr_ready, length_ready);
 }
 
-void fun19()
+void Problem19()
 {
     int matrix1[3][3];
     MyFillArrayWithRandomMatrix(matrix1, 3, 3);
@@ -259,7 +259,7 @@ void fun19()
     printf("\nminimum number is: %d\n\nmaximum number is: %d\n", min, max);
 }
 
-void fun20()
+void Problem20()
 {
     //int matrix1[3][3];
     int matrix1[3][3] = { {1,2,1},{5,5,5},{7,3,7} };
@@ -273,37 +273,37 @@ void fun20()
         cout << "\nno, matrix is not palindrome\n";
 }
 
-void fun21()
+void Problem21()
 {
     MyPrintFibonacciSeriesUsingFor(10);
 }
 
-void fun22()
+void Problem22()
 {
     cout << "1  ";
     MyPrintFibonacciSeriesUsingRecursion(10,1,0);
 }
 
-void fun23()
+void Problem23()
 {
     MyPrintFirstLetterOfEcheWord(MyReadText("please enter your string:\n"));
 }
 
-void fun24()
+void Problem24()
 {
     string s1 = MyReadText("please enter your string:\n");
     s1 = MyUpperEcheLetterOfEcheWord(s1);
     cout << "\nafter conversion to upper:\n" << s1 << endl;
 }
 
-void fun25()
+void Problem25()
 {
     string s1 = MyReadText("please enter your string:\n");
     s1 = MyLowerEcheLetterOfEcheWord(s1);
     cout << "\nafter conversion to lower:\n" << s1 << endl;
 }
 
-void fun26()
+void Problem26()
 {
     string s1 = MyReadText("please enter your string:\n");
     string s1temp = s1;
@@ -315,21 +315,21 @@ void fun26()
     cout << "\nstring after lower:\n" << s1temp << endl;
 }
 
-void fun27()
+void Problem27()
 {
     char x = MyReadLetter("please enter a charectar:\n");
     x = MyInvertLetter(x);
     cout << "\nchar after inverting case:\n" << x << endl;
 }
 
-void fun28()
+void Problem28()
 {
     string s1 = MyReadText("please enter your string:\n");
     s1 = InvertAllStringLetter(s1);
     cout << "\nstring after invertiring all leter case:\n" << s1 << endl;
 }
 
-void fun29()
+void Problem29()
 {
     string s1 = MyReadText("please enter your string:\n");
 
@@ -345,14 +345,14 @@ void fun29()
     cout << "\nother letters count = " << MyLetterCounter(s1, enLetterCounter::other);
 }
 
-void fun30()
+void Problem30()
 {
     string s1 = MyReadText("please enter your string:\n");
     char x = MyReadLetter("please enter a charectar:\n");
     cout << "\nletter '" << x << "' count = " << MyCountLetterInString(s1, x, true) << endl;
 }
 
-void fun31()
+void Problem31()
 {
     string s1 = MyReadText("please enter your string:\n");
     char x = MyReadLetter("please enter a charectar:\n");
@@ -361,7 +361,7 @@ void fun31()
         << "' count = " << MyCountLetterInString(s1, x) << endl;
 }
 
-void fun32()
+void Problem32()
 {
     char x = MyReadLetter("please enter a charectar:\n");
     if (MyIsItVowel(x))
@@ -370,31 +370,31 @@ void fun32()
         cout << "no, letter '" << x << "' is not vowel";
 }
 
-void fun33()
+void Problem33()
 {
     string s1 = MyReadText("please enter your string:\n");
     cout << "numbers of vowels = " << MyCountVowels(s1) << endl;
 }
 
-void fun34()
+void Problem34()
 {
     string s1 = MyReadText("please enter your string:\n");
     cout << "vowels in string are: ";
     MyPrintVowelsInString(s1);
 }
 
-void fun35()
+void Problem35()
 {
     MyPrintEachWordInString(MyReadText());
 }
 
-void fun36()
+void Problem36()
 {
     int x = MyPrintNumberOfWordsInString(MyReadText());
     cout << "number of words in your string is " << x << endl;
 }
 
-void fun37()
+void Problem37()
 {
     vector <string> vs1 = MySplitString(MyReadText(), " ");
     cout << "Tokens = " << vs1.size() << endl;
@@ -402,7 +402,7 @@ void fun37()
         cout << word << endl;
 }
 
-void fun38()
+void Problem38()
 {
     string s1 = "   abc   ";
     cout << "trim left  = [" << MyTrimLeft(s1) << "]" << endl;
@@ -410,7 +410,7 @@ void fun38()
     cout << "trim       = [" << MyTrim(s1) << "]" << endl;
 }
 
-void fun39()
+void Problem39()
 {
     vector <string> vs1 = { "ahmad","mohammed","fadi" };
     string separator = ",";
@@ -421,7 +421,7 @@ void fun39()
     cout << "\nvector after join :\n" << MyJoinString(vs1, separator) << endl;
 }
 
-void fun40()
+void Problem40()
 {
     vector <string> vs1 = { "ahmad","mohammed","fadi" };
     string arrofstring[] = { "ahmad","mohammed","fadi" };
@@ -432,13 +432,13 @@ void fun40()
     cout << "\narr of string after join :\n" << MyJoinString(arrofstring, separator, arrofstring_length) << endl;
 }
 
-void fun41()
+void Problem41()
 {
     string s1 = MyReadText("please enter your string :\n");
     cout << "\nstring after reversing words :\n" << MyReverseString(s1) << endl;
 }
 
-void fun42()
+void Problem42()
 {
     string s1 = "hello my name is ahmad ,my name is not mohu my name is ahmad yes";
     string original_word = "ahmad";
@@ -447,7 +447,7 @@ void fun42()
     cout << "\nnew string\n" << MyReplaceWordUsingBuiltInFunction(s1, original_word, new_word) << endl;
 }
 
-void fun43()
+void Problem43()
 {
     string s1 = "hello my name is Ahmad ,my name is not ali my name is Ahmad yes";
     string original_word = "ahmad";
@@ -457,20 +457,20 @@ void fun43()
     cout << "\nreplace without using match case:\n" << MyReplaceWord(s1, original_word, new_word,false) << endl;
 }
 
-void fun44()
+void Problem44()
 {
     string s1 = "hello,my name is ahmad.a";
     cout << s1 << endl << endl;
     cout << MyRemovePunctions(s1) << endl;
 }
 
-void fun45()
+void Problem45()
 {
     stClient Client = MyReadNewClient();
     cout << "\n\nClient Record for saving is:\n" << MyConvertRecordToLine(Client);
 }
 
-void fun46()
+void Problem46()
 {
     string ClientData = "a120#//#1234#//#ahmad alsaleh#//#0534431132#//#1500.12";
     cout << "Line record is:.\n" << ClientData << endl;
@@ -479,31 +479,31 @@ void fun46()
     MyPrintClientData(ClientRecord);
 }
 
-void fun47()
+void Problem47()
 {
     MyAddClients();
 }
 
-void fun48()
+void Problem48()
 {
     vector <string> VFileContant;
     MyLoadFileContentToVector(ClientFileName, VFileContant);
     MyPrintClientsList(VFileContant);
 }
 
-void fun49()
+void Problem49()
 {
     string AccountNumber = MyReadText("Please enter account number: ");
     MyPrintClientDataByAccountNumber(AccountNumber);
 }
 
-void fun50()
+void Problem50()
 {
     string AccountNumber = MyReadText("Please enter account number: ");
     MyDeleteClient(AccountNumber);
 }
 
-void fun51()
+void Problem51()
 {
     string AccountNumber = MyReadText("Please enter account number: ");
     MyUpdateClientDataByAccountNumber(AccountNumber);
